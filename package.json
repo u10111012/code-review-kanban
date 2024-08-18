@@ -10,6 +10,7 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^2.4.2",
     "@neondatabase/serverless": "^0.9.4",
     "@prisma/adapter-neon": "^5.16.1",
     "@prisma/client": "^5.16.1",
@@ -20,6 +21,7 @@
     "clsx": "^2.1.1",
     "lucide-react": "^0.395.0",
     "next": "15.0.0-rc.0",
+    "next-auth": "^4.24.7",
     "next-themes": "^0.3.0",
     "react": "19.0.0-rc-e02baf6c92-20240627",
     "react-dom": "19.0.0-rc-e02baf6c92-20240627",
